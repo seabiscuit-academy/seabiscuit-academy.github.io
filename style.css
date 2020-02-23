@@ -109,6 +109,7 @@ body {
   .contactUs{
   background-color: rgb(220, 220, 220, 0.3);
     text-align: center;
+    /* margin: 0 auto; */
   }
   .submitContactUS{
       border-radius: 60px;
