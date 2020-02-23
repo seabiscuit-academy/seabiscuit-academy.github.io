@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+body{
+    font-family: 'Montserrat' ;
+
+}
+.buttonCall{
+    border-radius: 20px;
+}
+.logo{
+    width:50%;
+}
+.nav{
+    height:10vh !important;
+    /* border-bottom: 10px black solid; */
+}
+.brand-logo{
+    text-align: center;
+}
+.navButtons{
+    margin-top:16px;
+}
+.title{
+    color:black;
+    /* margin-top: 100px; */
+    /* position: absolute;
+    top:50%;
+    transform: translateY(-50%); */
+    font-size: 3rem;
+    font-weight:600;
+    margin:0 auto;
+}
+.upper{
+    height:10vh;
+    margin-top: 80px;
+    text-align:center;
+}
+.outerCards{
+    text-align: center;
+}
+.offerings{
+    text-align: center;
+}
+.miniTitle{
+    color:black;
+    /* margin-top: 100px; */
+    /* position: absolute;
+    top:50%;
+    transform: translateY(-50%); */
+    font-size: 2rem;
+    font-weight:600;
+    margin:0 auto;
+}
