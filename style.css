@@ -1,52 +1,88 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-body{
-    font-family: 'Montserrat' ;
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+body {
+  font-family: "Montserrat";
+}
+.buttonCall {
+  border-radius: 20px;
+}
+.logo {
+  width: 50%;
+}
+.nav {
+  height: 10vh !important;
+  /* border-bottom: 10px black solid; */
+}
+.brand-logo {
+  text-align: center;
+}
+.navButtons {
+  margin-top: 16px;
+}
+.title {
+  color: black;
+  /* margin-top: 100px; */
+  /* position: absolute;
+    top:50%;
+    transform: translateY(-50%); */
+  font-size: 3rem;
+  font-weight: 600;
+  margin: 0 auto;
+}
+.upper {
+  /* height:10vh; */
+  margin-top: 80px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.outerCards {
+  text-align: center;
+}
+.offerings {
+  text-align: center;
+}
+.miniTitle {
+  color: black;
+  /* margin-top: 100px; */
+  /* position: absolute;
+    top:50%;
+    transform: translateY(-50%); */
+  font-size: 2.5rem;
+  font-weight: 600;
+  /* margin-bottom: 300px; */
+  /* margin:0 auto; */
+}
+.text {
+  padding-top: 60px;
+  margin-top: 30px;
+  font-size: 2rem;
+  font-weight: 500;
+}
+@media only screen and ( max-width:770px) {
+  .text {
+    font-size: 1rem;
+    
 
+    
+  }
 }
-.buttonCall{
-    border-radius: 20px;
+.AboutUs {
+  text-align: center;
+  /* height:30vh; */
+  padding-top: 60px;
+  padding-bottom: 10px;
+  background-color: rgb(220, 220, 220, 0.3);
 }
-.logo{
-    width:50%;
+.slider1 {
+  height: 60vh !important  ;
 }
-.nav{
-    height:10vh !important;
-    /* border-bottom: 10px black solid; */
+
+.rowAboutUs {
+  width: 40vw;
 }
-.brand-logo{
-    text-align: center;
+.caption{
+    color: black;
 }
-.navButtons{
-    margin-top:16px;
-}
-.title{
-    color:black;
-    /* margin-top: 100px; */
-    /* position: absolute;
-    top:50%;
-    transform: translateY(-50%); */
-    font-size: 3rem;
-    font-weight:600;
-    margin:0 auto;
-}
-.upper{
-    height:10vh;
-    margin-top: 80px;
-    text-align:center;
-}
-.outerCards{
-    text-align: center;
-}
-.offerings{
-    text-align: center;
-}
-.miniTitle{
-    color:black;
-    /* margin-top: 100px; */
-    /* position: absolute;
-    top:50%;
-    transform: translateY(-50%); */
-    font-size: 2rem;
-    font-weight:600;
-    margin:0 auto;
+.testimonials{
+  background-color: rgb(220, 220, 220, 0.3);
+
 }
