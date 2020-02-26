@@ -14,6 +14,7 @@ body {
   
   /* border-bottom: 10px black solid; */
 }
+
 .brand-logo {
   text-align: center;
 
@@ -64,18 +65,7 @@ body {
   font-weight: 500;
   margin-bottom: 30px;
 }
-@media only screen and ( max-width:770px) {
-  .text {
-    font-size: 1rem;
-    
 
-    
-  }
-  .box{
-    text-align: center;
-  }
-
-}
 .AboutUs {
   text-align: center;
   /* height:30vh; */
@@ -91,18 +81,19 @@ body {
   width: 40vw;
 }
 
-.testimonials{
-  /* background-color: rgb(220, 220, 220, 0.3); */
+/* .testimonials{
+  /* background-color: rgb(220, 220, 220, 0.3); 
 
-}
-.slider2{
+} */
+.slider2s{
     background-color: transparent !important;
-    /* height:30vh !important; */
+    padding-bottom: 30px;
 }
 .caption{
     font-weight: 600;
     margin-top: 30px;
 }
+
 body {
     display: flex;
     min-height: 100vh;
@@ -127,3 +118,30 @@ body {
   .footerButton{
     border-radius:40px;
   }
+
+
+
+
+
+  @media only screen and ( max-width:770px) {
+    .text {
+      font-size: 1rem;
+      
+  
+      
+    }
+    .nav {
+      height: 12vh !important;
+      
+      /* border-bottom: 10px black solid; */
+    }
+    .testimonialtext{
+      font-size: 1rem;
+    }
+    .box{
+      text-align: center;
+    }
+    .card-title{
+      font-size: 1.1rem !important;
+    }
+  } 
