@@ -1,4 +1,4 @@
 # Seabiscuit Academy
 
 
-[seabiscuitacademy.com]("seabiscuitacademy.com")
+[seabiscuitacademy.com]("https://www.seabiscuitacademy.com")
